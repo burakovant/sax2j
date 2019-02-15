@@ -49,7 +49,9 @@ public class JsonObject implements JsonValue
     {
       if (lValue instanceof JsonArray)
       {
-        ((JsonArray)lValue).add(xiValue);
+        if (!(xiValue instanceof JsonNull)) {
+          ((JsonArray)lValue).add(xiValue);
+        }
       }
       else if (xiCombine)
       {

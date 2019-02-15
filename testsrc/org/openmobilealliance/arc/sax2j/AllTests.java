@@ -5,7 +5,7 @@ import org.junit.runners.Suite;
 import org.junit.runners.Suite.SuiteClasses;
 
 @RunWith(Suite.class)
-@SuiteClasses({ MainTest.class, StructuralJsonTest.class })
+@SuiteClasses({ MainTest.class, StructuralJsonTest.class, ConvertTest.class })
 public class AllTests {
 
 }

@@ -1,0 +1,17 @@
+{ "nmsEventList": {
+    "userData": [],
+    "changedObject": [
+      { "parentFolder": "http://www.example.org/parent",
+        "attributes": { "attribute": [] },
+        "flags": {
+          "flag": [
+            "\\Seen",
+            "\\Flagged"
+          ]
+        },
+        "resourceURL": "http://www.example.org/this",
+        "lastModSeq": 0
+      }
+    ]
+  }
+}
